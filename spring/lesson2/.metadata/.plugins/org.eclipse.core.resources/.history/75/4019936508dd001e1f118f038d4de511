@@ -1,0 +1,16 @@
+package com.in28minutes.springboot.learnspringboot;
+
+import org.springframework.web.bind.annotation.RestController;
+
+[
+{
+	"id" : 1,
+	"name" : "Learn",
+	"author" : "yi"
+}
+]
+
+@RestController
+public class CourseController {
+
+}

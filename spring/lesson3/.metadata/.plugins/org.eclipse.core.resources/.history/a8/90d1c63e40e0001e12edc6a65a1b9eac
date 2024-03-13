@@ -1,0 +1,22 @@
+package com.in28minutes.springboot.learnjpaandhibernate.course.jdbc;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
+
+//spring이 db와 연결될 때 쓰는 어노테이션
+@Repository
+public class CourserJDBCRepository {
+
+	JdbcTemplate springJdbcTemplate;
+	
+	private static String INSERT_QUERY = 
+			"""
+				insert into course (id, name, author)
+				values(1, 'Learn AWS', 'in28minutes');
+			""";
+	public void insert()
+	{
+		springJdbcTemplate.update(INSERT_QUERY);
+	}
+	
+}

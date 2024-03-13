@@ -1,0 +1,7 @@
+
+logging.lever.org.springframework = debug
+spring.profiles.active = dev
+
+currency-service.url= "http"
+currency-service.username = "yi"
+currency-service.key = "key"

@@ -1,0 +1,9 @@
+INDEX VERSION 1.134
+C:\Users\82105\Desktop\spring\week1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1335314651.index
+\ex02\src\main\java
+C:\Users\82105\Desktop\spring\week1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\456688482.index
+\ex02\src\main\java
+C:\Users\82105\Desktop\spring\week1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3598352794.index
+\ex02\src\main\java
+C:\Users\82105\Desktop\spring\week1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4114014798.index
+\ex02\src\main\java

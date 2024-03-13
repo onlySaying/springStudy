@@ -1,0 +1,26 @@
+package com.in28minutes.springboot.learnjpaandhibernate.course.jdbc;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.in28minutes.springboot.learnjpaandhibernate.course.Course;
+
+//spring이 db와 연결될 때 쓰는 어노테이션
+@Repository
+public class CourserJDBCRepository {
+
+	@Autowired
+	JdbcTemplate springJdbcTemplate;
+	
+	private static String INSERT_QUERY = 
+			"""
+				insert into course (id, name, author)
+				values(?, ?, ?);
+			""";
+	public void insert(Course course)
+	{
+		springJdbcTemplate.update(INSERT_QUERY);
+	}
+	
+}

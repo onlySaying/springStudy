@@ -1,0 +1,11 @@
+package com.in28minutes.learnspringframework.examples.c1;
+
+import java.util.Arrays;
+import com.in28minutes.learnspringframework.examples.c1.DataService;
+
+public class BusinessCalculationService {
+	public int findMax()
+	{
+		return Arrays.stream(DataService.retreveData()).max()clone()
+	}
+}

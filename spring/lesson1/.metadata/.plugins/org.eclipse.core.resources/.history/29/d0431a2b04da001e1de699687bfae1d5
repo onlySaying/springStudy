@@ -1,0 +1,6 @@
+package com.in28minutes.learnspringframework;
+
+@Configuration
+public class HelloWorldConfigurationClass {
+
+}

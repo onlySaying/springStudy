@@ -1,0 +1,27 @@
+package com.in28minutes.learnspringframework;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+record Person(String name, int age) {};
+@Configuration
+public class HelloWorldConfigurationClass {
+	
+	@Bean
+	public String name()
+	{
+		return "Yi";
+	}
+	
+	@Bean
+	public int age()
+	{
+		return 20;
+	}
+	
+	@Bean
+	public Person person()
+	{
+		var perosn = new  Person("aa",22);
+	}
+}

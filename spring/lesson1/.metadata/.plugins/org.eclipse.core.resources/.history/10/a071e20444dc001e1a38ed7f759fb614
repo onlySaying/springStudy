@@ -1,0 +1,11 @@
+package com.in28minutes.learnspringframework.examples.c1;
+
+public class MongoDBDataService implements DataService{
+
+	@Override
+	public int[] retreveData() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

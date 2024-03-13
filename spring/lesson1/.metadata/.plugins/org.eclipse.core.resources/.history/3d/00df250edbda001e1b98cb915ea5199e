@@ -1,0 +1,67 @@
+package com.in28minutes.learnspringframework;
+
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
+
+record Person(String name, int age , Address address) {};
+record Address(String city, String firstLine) {};
+@Configuration
+public class HelloWorldConfigurationClass {
+	
+	@Bean
+	public String name()
+	{
+		return "Yi";
+	}
+	
+	@Bean
+	public int age()
+	{
+		return 20;
+	}
+	
+	@Bean
+	@Primary
+	public Person person()
+	{
+		var person = new  Person("aa",22, new Address("aa", "bb"));
+		return person;
+	}
+	
+	@Bean (name = "address2")
+	// primary는 대표성을 줌으로써 다른 곳에서 bean을 가져다 쓸 경우 default값으로써 작용한다,
+	@Primary
+	public Address address()
+	{
+		var address = new Address("baker", "London");
+		return address;
+	}
+	
+	@Bean
+	public Person personQulifier(String name, int age, @Qualifier("address3Quli") Address address2)
+	{
+		return new Person(name, age, address2);
+	}
+
+	@Bean
+	@Qualifier("address3Quli")
+	public Address address3()
+	{
+		var address = new Address("bad", "Ldplayer");
+		return address;
+	}
+	
+	@Bean
+	public Person person2MethodCall()
+	{
+		return new Person(name(), age(), address());
+	}
+	
+	@Bean
+	public Person person3Parameters(String name, int age, Address address2)
+	{
+		return new Person(name, age, address2);
+	}
+}

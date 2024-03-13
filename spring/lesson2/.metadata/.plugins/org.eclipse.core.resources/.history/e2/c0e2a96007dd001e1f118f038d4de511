@@ -1,0 +1,12 @@
+package com.in28minutes.springboot.learnspringboot;
+
+[
+{
+	"id" : 1,
+	"name" : "Learn"
+}
+]
+
+public class CourseController {
+
+}

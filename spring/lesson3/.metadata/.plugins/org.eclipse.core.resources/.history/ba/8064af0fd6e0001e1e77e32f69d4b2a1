@@ -1,0 +1,8 @@
+package com.in28minutes.springboot.learnjpaandhibernate.course.SpringDataJpa;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CourseSpringDataJpaRepository 
+extends JpaRepository<T, ID>{
+
+}

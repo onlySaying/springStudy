@@ -1,0 +1,54 @@
+package com.in28minutes.learnspringframework.examples.g1;
+
+import java.util.Arrays;
+
+import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+
+import com.in28minutes.learnspringframework.examples.c1.DataService;
+import com.in28minutes.learnspringframework.game.GameRunner;
+import com.in28minutes.learnspringframework.game.GamingConsole;
+
+@Component
+class BusinessService
+{
+	private DataService dataService;
+	
+	public void setDataService(DataService dataService) {
+		this.dataService = dataService;
+	}
+	@Autowired
+	public DataService getDataService() {
+		return dataService;
+	}
+	
+}
+
+@Component
+class DataServict
+{
+	
+}
+
+@Configuration
+@ComponentScan
+public class CdiContext {
+	
+	public static void main(String[] args) {
+		
+		try (var context = 
+				new AnnotationConfigApplicationContext
+				(CdiContext.class)) 
+		{
+			Arrays.stream(context.getBeanDefinitionNames())
+			.forEach(System.out::println);;
+		}
+		
+	}
+
+}

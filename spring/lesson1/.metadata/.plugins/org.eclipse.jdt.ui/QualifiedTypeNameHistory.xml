@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.game.MarioGame"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.game.SuperContraGame"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Annotation"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.HelloWorldConfigurationClass"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.Address"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.Person.Address"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.game.packManGame"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.GamingConfiguration"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.game.GamingConsole"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.examples.a1.Dependency1"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.examples.a1.Dependency2"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.examples.a1.YourBusinessClass"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Primary"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.examples.c1.BusinessCalculationService"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.examples.d1.ClassA"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Lazy"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
+    <fullyQualifiedTypeName name="net.bytebuddy.dynamic.loading.ClassLoadingStrategy.Configurable"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.config.ConfigurableBeanFactory"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.examples.e1.PrototypeClass"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.examples.e1.NormalClass"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.examples.f1.SomeClass"/>
+    <fullyQualifiedTypeName name="jakarta.annotation.PostConstruct"/>
+    <fullyQualifiedTypeName name="jakarta.annotation.PreDestroy"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.examples.c1.DataService"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.examples.g1.BusinessService"/>
+    <fullyQualifiedTypeName name="jakarta.inject.Inject"/>
+    <fullyQualifiedTypeName name="jakarta.inject.Named"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.game.GameRunner"/>
+</qualifiedTypeNameHistroy>

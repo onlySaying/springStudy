@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\82105\Desktop\spring\week1\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+386524853.index
+4218039244.index
+2051705981.index
+1883213658.index
+2759905957.index
+1279680768.index

@@ -1,0 +1,36 @@
+package com.in28minutes.springboot.learnjpaandhibernate.course;
+
+public class Course {
+	private long id;
+	private String namd;
+	private String author;
+	
+	public Course() {}
+	
+	
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
+	public String getNamd() {
+		return namd;
+	}
+	public void setNamd(String namd) {
+		this.namd = namd;
+	}
+	public String getAuthor() {
+		return author;
+	}
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+	
+	@Override
+	public String toString() {
+		return "Course [id=" + id + ", namd=" + namd + ", author=" + author + "]";
+	}
+	
+	
+}
