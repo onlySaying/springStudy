@@ -1,0 +1,15 @@
+package com.in28minutes.springboot.myfirstwebapp;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class SayHelloContoroller {
+	//"say-hello" => "Hello! What are you learning today?"
+	
+	@RequestMapping("/sayhello")
+	public String SayHello()
+	{
+		return "Hello! What are you learning today?";
+	}
+}
