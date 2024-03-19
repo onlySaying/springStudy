@@ -1,0 +1,7 @@
+package com.in28minutes.springboot.myfirstwebapp.todo;
+
+import java.util.List;
+
+public class TodoService {
+	private static List<Todo> todos;
+}

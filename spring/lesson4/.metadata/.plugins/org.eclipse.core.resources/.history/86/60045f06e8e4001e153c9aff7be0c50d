@@ -1,0 +1,11 @@
+package com.in28minutes.springboot.myfirstwebapp.login;
+
+public class AuthenticationService {
+
+	public boolean authenticate(String username, String password)
+	{
+		username.equalsIgnoreCase("ddd");
+		
+		return false
+	}
+}
