@@ -1,3 +1,0 @@
-spring.application.name=myfirstwebappApplication
-server.port = 8081
-# annotation is use #

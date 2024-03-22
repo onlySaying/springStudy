@@ -2,3 +2,13 @@
 1710743183634	Copy file
 1710751131478	Copy file
 1710822296317	Copy file
+1710987435271	Rename resource 'header.jsp'
+1710994989606	Delete element
+1710996871174	Move compilation unit
+1711001265768	Extract method 'getLoggedInUserName'
+1711005714730	Extract local variable 'username'
+1711005724175	Extract local variable 'password'
+1711005773833	Extract method 'createNewUser'
+1711072935990	Copy compilation unit
+1711073036678	Delete element
+1711073059331	Copy compilation unit

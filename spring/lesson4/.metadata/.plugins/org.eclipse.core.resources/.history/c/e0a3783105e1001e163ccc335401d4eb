@@ -1,6 +1,0 @@
-spring.application.name=myfirstwebappApplication
-server.port = 8081
-# comment is use #
-
-prefix =  /src/main/resources/META-INF/resources/WEB-INF/jsp/sayHello.jsp
-suffix = .jsp

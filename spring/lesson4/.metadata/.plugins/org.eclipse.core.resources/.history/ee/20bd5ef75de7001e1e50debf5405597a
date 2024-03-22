@@ -1,0 +1,15 @@
+spring.application.name=myfirstwebappApplication
+#server.port = 8081
+# comment is use #
+
+spring.mvc.view.prefix =  /WEB-INF/jsp/
+spring.mvc.view.suffix = .jsp
+#if you want to check debug log
+#logging.level.org.springframework = debug
+logging.level.org.springframework = info
+logging.level.com.in28minutes.springboot.myfirstwebapp = info
+
+spring.mvc.format.date = yyyy-MM-dd
+
+spring.datasource.url = jdbc:h2:mem:testdb
+spring.jpa.defer-datasource-initalization = true

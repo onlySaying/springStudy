@@ -6,17 +6,26 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="validation"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="jdbc"/>
+			<item value="h2"/>
+			<item value="data"/>
+			<item value="getloggedin"/>
+			<item value="getlogged"/>
+			<item value="getlogg"/>
+			<item value="get"/>
+			<item value="secu"/>
 			<item value="validation"/>
 			<item value="org.springframework.boot"/>
 		</list>
 		<list key="replacehistory">
+			<item value=""/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="196"/>
-		<item key="DIALOG_Y_ORIGIN" value="246"/>
+		<item key="DIALOG_X_ORIGIN" value="749"/>
+		<item key="DIALOG_Y_ORIGIN" value="252"/>
 		<item key="DIALOG_WIDTH" value="369"/>
 		<item key="DIALOG_HEIGHT" value="454"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
