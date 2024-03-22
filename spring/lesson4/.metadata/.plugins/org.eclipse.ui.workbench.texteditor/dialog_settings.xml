@@ -6,8 +6,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=""/>
+		<item key="selection" value="tomcat"/>
 		<list key="findhistory">
+			<item value="tomcat"/>
+			<item value="tom"/>
 			<item value="jdbc"/>
 			<item value="h2"/>
 			<item value="data"/>

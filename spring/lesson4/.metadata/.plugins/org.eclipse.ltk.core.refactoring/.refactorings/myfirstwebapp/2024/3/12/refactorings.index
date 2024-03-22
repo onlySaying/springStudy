@@ -12,3 +12,5 @@
 1711072935990	Copy compilation unit
 1711073036678	Delete element
 1711073059331	Copy compilation unit
+1711089336043	Move 'welcome.jsp' to 'common'
+1711089347066	Move 'welcome.jsp' to 'jsp'
