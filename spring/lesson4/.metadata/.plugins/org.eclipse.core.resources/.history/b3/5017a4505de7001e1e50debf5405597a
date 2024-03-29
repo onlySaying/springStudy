@@ -1,2 +1,0 @@
-insert into todo(ID, USERNAME, DESCRIPTION)
-values(10001, "Get AWS Certified", false);

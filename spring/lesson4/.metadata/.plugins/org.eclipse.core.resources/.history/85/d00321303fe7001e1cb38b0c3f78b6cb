@@ -1,5 +1,0 @@
-package com.in28minutes.springboot.myfirstwebapp.Security;
-
-public class SpringSecurityConfiguration {
-
-}
